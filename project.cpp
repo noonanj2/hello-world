@@ -17,7 +17,7 @@ int get_line_sum(const string &line) {
     return line_sum;
 }
 
-// Tells us the neighborhood of the given index in the string, i.e., the three
+// Gives us the neighborhood of the given index in the string, i.e., the three
 // chars surrounding it
 string get_neighborhood(const string &line, const int &i) {
     int length = line.length();
